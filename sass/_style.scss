@@ -1,0 +1,130 @@
+html{
+	position: relative;
+	min-height: $medida;
+}
+body{
+	background-color: $gray-body;
+}
+textarea{
+	width: $medida;
+	height: $medida;
+	color: $font-textarea;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	border: $no-property;
+	margin-bottom: 10px;
+	overflow: scroll;
+	overflow-x: hidden;	
+}
+.navbar-default {
+	background-color: $blue;
+	margin-bottom: 70px;
+	height: 130px;
+	box-shadow: 0px 1px 24px -6px rgba(0,0,0,1);
+}
+.titulo{
+	color: $white;
+	font-family: $font;
+	font-weight: 700;
+}
+#boton{
+	background-color: $blue;	
+	border: $no-property;
+	cursor: $cursor;
+	box-shadow: 0px 1px 24px -6px rgba(0,0,0,1);
+	text-align: center;
+	margin-bottom: 20px;
+	width: 130px;
+
+	&:hover{
+		background-color: darken($blue, 10%);
+	}
+}
+#contenedor{
+	background-color: $white;
+	border-radius: 5px;
+	width: $medida;
+	color: $font-textarea;
+
+	span{
+		margin-left: 10px;
+		margin-bottom: 20px;		
+	}
+
+	div{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 5px;
+		outline: 2px solid $gray-body;		
+	}
+}
+.text-left{
+	color: $white;
+}
+.grumpy{
+	width: 100px;
+	border-radius: 100px;
+	box-shadow: 0px 1px 24px -6px rgba(0,0,0,1);
+}
+.f-background{
+	background-color: $bg-footer;
+	border-top: 1px solid $bg-footer;
+	color: $footer-text;
+	font-size: 20px;
+	padding-top: 7px;
+}
+footer {
+    bottom: 0;
+    position: absolute;	
+	padding-top: 20px;
+	height: 40px;
+	width: $medida;
+
+	span{
+		margin-right: 20px;
+		margin-left: 20px;
+
+		&:hover{
+			color: $blue;
+			cursor: $cursor;
+		}
+	}
+}
+.men-foo {
+	a{
+		font-size: 14px;
+		color: $color-icon;
+		text-decoration: $no-property;
+		margin-right: 10px;
+		margin-left: 10px;
+
+		&:hover{
+			color: $blue;
+			cursor: $cursor;
+		}		
+	}
+}
+.trash{
+	float: right;
+	margin-right: 10px;
+
+	&:hover{
+		color: $blue;
+		cursor: $cursor;
+	}
+}
+.corazon{
+	float: right;
+}
+.tachado {
+	text-decoration: line-through;
+	color: $blue;
+}
+.red{
+	color: $red-heart;
+	cursor: $cursor;
+}
+.wh-44{
+	cursor: $cursor;
+}

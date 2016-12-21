@@ -1,0 +1,115 @@
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  background-color: #E5E3F2; }
+
+textarea {
+  width: 100%;
+  height: 100%;
+  color: #4E4D53;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  overflow: scroll;
+  overflow-x: hidden; }
+
+.navbar-default {
+  background-color: #1DA1F2;
+  margin-bottom: 70px;
+  height: 130px;
+  box-shadow: 0px 1px 24px -6px black; }
+
+.titulo {
+  color: #FFFFFF;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700; }
+
+#boton {
+  background-color: #1DA1F2;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 1px 24px -6px black;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 130px; }
+  #boton:hover {
+    background-color: #0c85d0; }
+
+#contenedor {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  width: 100%;
+  color: #4E4D53; }
+  #contenedor span {
+    margin-left: 10px;
+    margin-bottom: 20px; }
+  #contenedor div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    outline: 2px solid #E5E3F2; }
+
+.text-left {
+  color: #FFFFFF; }
+
+.grumpy {
+  width: 100px;
+  border-radius: 100px;
+  box-shadow: 0px 1px 24px -6px black; }
+
+.f-background {
+  background-color: #C6C4D3;
+  border-top: 1px solid #C6C4D3;
+  color: #636468;
+  font-size: 20px;
+  padding-top: 7px; }
+
+footer {
+  bottom: 0;
+  position: absolute;
+  padding-top: 20px;
+  height: 40px;
+  width: 100%; }
+  footer span {
+    margin-right: 20px;
+    margin-left: 20px; }
+    footer span:hover {
+      color: #1DA1F2;
+      cursor: pointer; }
+
+.men-foo a {
+  font-size: 14px;
+  color: #636468;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px; }
+  .men-foo a:hover {
+    color: #1DA1F2;
+    cursor: pointer; }
+
+.trash {
+  float: right;
+  margin-right: 10px; }
+  .trash:hover {
+    color: #1DA1F2;
+    cursor: pointer; }
+
+.corazon {
+  float: right; }
+
+.tachado {
+  text-decoration: line-through;
+  color: #1DA1F2; }
+
+.red {
+  color: #FC1E26;
+  cursor: pointer; }
+
+.wh-44 {
+  cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
