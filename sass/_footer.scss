@@ -1,0 +1,38 @@
+.f-background{
+	background-color: $bg-footer;
+	border-top: 1px solid $bg-footer;
+	color: $footer-text;
+	font-size: 20px;
+	padding-top: 7px;
+}
+footer {
+    bottom: 0;
+    position: absolute;	
+	padding-top: 20px;
+	height: 40px;
+	width: $medida;
+
+	span{
+		margin-right: 20px;
+		margin-left: 20px;
+
+		&:hover{
+			color: $blue;
+			cursor: $cursor;
+		}
+	}
+}
+.men-foo {
+	a{
+		font-size: 14px;
+		color: $color-icon;
+		text-decoration: $no-property;
+		margin-right: 10px;
+		margin-left: 10px;
+
+		&:hover{
+			color: $blue;
+			cursor: $cursor;
+		}		
+	}
+}

@@ -17,17 +17,6 @@ textarea {
   overflow: scroll;
   overflow-x: hidden; }
 
-.navbar-default {
-  background-color: #1DA1F2;
-  margin-bottom: 70px;
-  height: 130px;
-  box-shadow: 0px 1px 24px -6px black; }
-
-.titulo {
-  color: #FFFFFF;
-  font-family: "Oswald", sans-serif;
-  font-weight: 700; }
-
 #boton {
   background-color: #1DA1F2;
   border: none;
@@ -55,6 +44,38 @@ textarea {
 
 .text-left {
   color: #FFFFFF; }
+
+.trash {
+  float: right;
+  margin-right: 10px; }
+  .trash:hover {
+    color: #1DA1F2;
+    cursor: pointer; }
+
+.corazon {
+  float: right; }
+
+.tachado {
+  text-decoration: line-through;
+  color: #1DA1F2; }
+
+.red {
+  color: #FC1E26;
+  cursor: pointer; }
+
+.wh-44 {
+  cursor: pointer; }
+
+.navbar-default {
+  background-color: #1DA1F2;
+  margin-bottom: 70px;
+  height: 130px;
+  box-shadow: 0px 1px 24px -6px black; }
+
+.titulo {
+  color: #FFFFFF;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700; }
 
 .grumpy {
   width: 100px;
@@ -90,26 +111,5 @@ footer {
   .men-foo a:hover {
     color: #1DA1F2;
     cursor: pointer; }
-
-.trash {
-  float: right;
-  margin-right: 10px; }
-  .trash:hover {
-    color: #1DA1F2;
-    cursor: pointer; }
-
-.corazon {
-  float: right; }
-
-.tachado {
-  text-decoration: line-through;
-  color: #1DA1F2; }
-
-.red {
-  color: #FC1E26;
-  cursor: pointer; }
-
-.wh-44 {
-  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
